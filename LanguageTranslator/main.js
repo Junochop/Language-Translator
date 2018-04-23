@@ -1,9 +1,9 @@
 
 var elvesArray = [
     {
-    "merry": "yo",
-    "christmas": "mama",
-    "you": "big"
+    "merry": "yo elves",
+    "christmas": "mama elves",
+    "you": "big elves"
     }
 ]
 
@@ -29,7 +29,7 @@ var datrakiArray = [
 function writeToDom(string) {
 
     document.getElementById("display-container").innerHTML += string + " ";
-    
+
 }
 
 
@@ -42,15 +42,15 @@ document.getElementById("button3").addEventListener("click", function () { displ
 function displayElvesFunction(inputValue) {
 
     var input = document.getElementById("field").value;
-  
+
         for (var i = 0; i < elvesArray.length;  i++){
             if (input in elvesArray[i]) {
-                
+
                 var domString = "";
                 domString = elvesArray[i][input];
                 writeToDom(domString);
             }
-            
+
         }
 
 }

@@ -3,7 +3,7 @@
 ## Description
 This is a team-planned project. The user inputs a series of words that we had to translate to three different languages.
 
-![Index Page]()
+![Index Page](https://raw.githubusercontent.com/Junochop/Language-Translator/master/LanguageTranslator/pics/Screen%20Shot%202018-04-23%20at%204.31.37%20PM.png)
 
 
 ## How To Run
